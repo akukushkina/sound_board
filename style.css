@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(23, 172, 230);
+     height: 100vh;
+     width: 100vw;
+}
+
+.btn {
+    background-color: rgb(23, 38, 230);
+    border: none;
+    padding: 15px 35px;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 20px;
+    transition: transform .3s ease-in;
+}
+
+.btn:hover{
+    background-color: rgba(23, 38, 230, 0.9);
+}
+
+.btn:active {
+    transform: scale(0.89);
+}
